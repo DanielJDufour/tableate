@@ -1,0 +1,30 @@
+{
+  "name": "tableate",
+  "version": "0.0.0",
+  "description": "Convert a One-Dimensional Array of Numbers into a Two-Dimensional Array, a Table of Rows and Columns",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write index.js test.js",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/tableate.git"
+  },
+  "keywords": [
+    "pixels",
+    "two-dimensional",
+    "table",
+    "unflat",
+    "unflatten"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/tableate/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/tableate#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  }
+}
